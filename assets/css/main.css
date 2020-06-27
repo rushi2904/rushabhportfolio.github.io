@@ -62,9 +62,10 @@ ul li, ol li {
 }
 
 /*Text Changing Section*/
+
 span:before{
   content: '';
-  animation: animate infinite 8s;
+  animation: animate infinite 15s;
 }
 @keyframes animate{
   0%{
