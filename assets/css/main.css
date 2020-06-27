@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 }
 
 .script-font {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'cursive';
 }
 
 a {
@@ -71,15 +71,13 @@ span:before{
   0%{
       content: 'HTML WEBSITE'
   }
-  20%{
+  30%{
       content: 'RESPONSIVE WEBSITE'
   }
-  40%{
+  60%{
       content: 'WORDPRESS WEBSITE';
   }
-  60%{
-      content: 'AND MANYMORE CONECT FOR DEPLOY YOUR IDEAS INTO REALITY';
-  }
+  
 }
 .hero-heading {
   font-size: 48px;
