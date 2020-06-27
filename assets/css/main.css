@@ -61,6 +61,25 @@ ul li, ol li {
   list-style: none;
 }
 
+/*Text Changing Section*/
+span:before{
+  content: '';
+  animation: animate infinite 8s;
+}
+@keyframes animate{
+  0%{
+      content: 'HTML WEBSITE'
+  }
+  20%{
+      content: 'RESPONSIVE WEBSITE'
+  }
+  40%{
+      content: 'WORDPRESS WEBSITE';
+  }
+  60%{
+      content: 'AND MANYMORE CONECT FOR DEPLOY YOUR IDEAS INTO REALITY';
+  }
+}
 .hero-heading {
   font-size: 48px;
   font-weight: 700;
