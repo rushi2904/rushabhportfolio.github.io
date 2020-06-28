@@ -80,9 +80,9 @@ span:before{
   animation: animate infinite 15s;
 }
 @keyframes animate{
-  0%{
+  /*0%{
       content: 'HTML WEBSITE'
-  }
+  }*/
   30%{
       content: 'RESPONSIVE WEBSITE'
   }
