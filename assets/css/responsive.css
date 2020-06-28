@@ -20,6 +20,9 @@
   .services-item {
     margin-bottom: 20px;
   }
+  .timeline li .line-title{
+    line-height: 26px
+  }
 }
 
 /* only small tablets */
@@ -29,7 +32,7 @@
     margin-bottom: 30px;
   }
   .services-item .services-content h3 a {
-    font-size: 16px;
+    font-size: 15px;
   }
   .services-item {
     margin-bottom: 20px;
@@ -37,10 +40,20 @@
   .counter-section .counter p {
     font-size: 14px;
   }
+  .timeline li .line-title{
+    line-height: 26px
+  }
 }
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+  .shot-item img{
+    padding: 40px
+  }
+  .controls{
+    display: inline-grid;
+    margin-left: 100px;
+  }
   .section-title {
     font-size: 22px;
     margin-bottom: 30px;

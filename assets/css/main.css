@@ -48,7 +48,7 @@ p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 ul, ol {
@@ -1006,7 +1006,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .footer-right-contact {
   padding: 4px;
   border: 1px solid #e1e1e1;
-  margin-top: 30px;
+  margin-top: 28px;
+  height: 240px;
 }
 
 .footer-right-contact .single-contact {
@@ -1014,6 +1015,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   padding: 3px 55px;
   position: relative;
   color: #666;
+  top: 15px;
 }
 
 .footer-right-contact .single-contact p {
