@@ -62,31 +62,19 @@ ul li, ol li {
 }
 
 /*Text Changing Section*/
-@keyframes type{
-  0%{
-    width: 0ch;
-  }
-  100%{
-    width: 17ch;
-  }
-}
-span{
-  animation: type 3s steps(22);
-  overflow: hidden;
-  white-space: nowrap;
-}
+
 span:before{
   content: '';
   animation: animate infinite 15s;
 }
 @keyframes animate{
-  /*0%{
-      content: 'HTML WEBSITE'
-  }*/
   30%{
-      content: 'RESPONSIVE WEBSITE'
+      content: 'HTML WEBSITE'
   }
   60%{
+      content: 'RESPONSIVE WEBSITE'
+  }
+  90%{
       content: 'WORDPRESS WEBSITE';
   }
   
