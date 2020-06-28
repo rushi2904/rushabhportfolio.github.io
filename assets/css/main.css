@@ -63,9 +63,16 @@ ul li, ol li {
 
 /*custom css*/
 
-.text-col{
-  color: #dc3545!important;
+ .text-col {
+    /* color: #03A9F5!important; */
+    font-size: 33px;
+    background: -webkit-linear-gradient(#03A9F4, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+    text-transform: capitalize;
 }
+
 /*custom css end*/
 .hero-heading {
   font-size: 48px;
