@@ -62,7 +62,19 @@ ul li, ol li {
 }
 
 /*Text Changing Section*/
-
+@keyframes type{
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 17ch;
+  }
+}
+span{
+  animation: type 3s steps(22);
+  overflow: hidden;
+  white-space: nowrap;
+}
 span:before{
   content: '';
   animation: animate infinite 15s;
@@ -751,15 +763,17 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #hero-area .contents h5 {
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #hero-area .contents .head-title {
   color: #fff;
-  font-size: 80px;
+  font-size: 35px;
   letter-spacing: 10px;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #hero-area .contents p {
