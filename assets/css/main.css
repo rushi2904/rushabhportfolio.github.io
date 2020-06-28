@@ -61,7 +61,7 @@ ul li, ol li {
   list-style: none;
 }
 
-/*Text Changing Section*/
+/*Text Changing Section*
 
 span:before{
   content: '';
@@ -78,7 +78,7 @@ span:before{
       content: 'WORDPRESS WEBSITE';
   }
   
-}
+}*/
 .hero-heading {
   font-size: 48px;
   font-weight: 700;
