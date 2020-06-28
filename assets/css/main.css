@@ -61,24 +61,12 @@ ul li, ol li {
   list-style: none;
 }
 
-/*Text Changing Section*
+/*custom css*/
 
-span:before{
-  content: '';
-  animation: animate infinite 15s;
+.text-col{
+  color: #dc3545!important;
 }
-@keyframes animate{
-  30%{
-      content: 'HTML WEBSITE'
-  }
-  60%{
-      content: 'RESPONSIVE WEBSITE'
-  }
-  90%{
-      content: 'WORDPRESS WEBSITE';
-  }
-  
-}*/
+/*custom css end*/
 .hero-heading {
   font-size: 48px;
   font-weight: 700;
